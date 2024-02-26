@@ -1,0 +1,18 @@
+{
+  "IndexPage": {
+    "title": "Best multi language Example",
+    "description": "Hey Aayush!! What's up, this is just a multi language showcase for you. This is uses Next js 14 and Shadcn UI with your next-intl example. Hope you like it."
+  },
+  "NotFoundPage": {
+    "title": "Page Not Found",
+    "description": "Oops! It seems like you've stumbled upon a page that doesn't exist. Don't worry, our internationalization magic is still hard at work on other parts of the app. Feel free to navigate back to explore more!"
+  },
+  "Navigation": {
+    "dropdown": "Select a language",
+    "lang": "Language",
+    "home": "Home"
+  },
+  "Footer": {
+    "copyright": "© 2024 Your App. All rights reserved."
+  }
+}

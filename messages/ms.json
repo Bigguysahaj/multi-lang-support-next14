@@ -1,0 +1,19 @@
+{
+  "IndexPage": {
+    "title": "Contoh bahasa pelbagai terbaik",
+    "description": "Hey Aayush!! Apa khabar, ini hanyalah pameran bahasa pelbagai untuk anda. Ini menggunakan Next js 14 dan Shadcn UI dengan contoh next-intl anda. Harap anda suka."
+  },
+  "NotFoundPage": {
+    "title": "Halaman Tidak Ditemui",
+    "description": "Oops! Nampaknya anda telah terjumpa halaman yang tidak wujud. Jangan risau, keajaiban pengantarabangsaan kami masih berfungsi dengan baik pada bahagian lain aplikasi. Sila bergerak balik untuk meneroka lebih lanjut!"
+  },
+  "Navigation": {
+    "dropdown": "Pilih bahasa",
+    "lang": "Bahasa",
+    "home": "Laman Utama"
+  },
+  "Footer": {
+    "copyright": "© 2024 Aplikasi Anda. Semua hak cipta terpelihara."
+  }
+}
+  
