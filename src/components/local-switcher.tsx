@@ -45,17 +45,5 @@ export default function LocalSwitcher( {dropdown, lang}: {dropdown: string, lang
             </DropdownMenuRadioGroup>
           </DropdownMenuContent>
         </DropdownMenu>
-    // <label className='border-2 rounded'>
-    //   <p className='sr-only'>change language</p>
-    //   <select
-    //     defaultValue={localActive}
-    //     className='bg-transparent py-2'
-    //     onChange={onSelectChange}
-    //     disabled={isPending}
-    //   >
-    //     <option value='en'>English</option>
-    //     <option value='id'>Indonesian</option>
-    //   </select>
-    // </label>
   );
 }
