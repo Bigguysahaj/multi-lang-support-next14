@@ -1,7 +1,10 @@
 {
   "IndexPage": {
     "title": "أفضل مثال للغة متعددة",
-    "description": "مرحبا أيوش! ما الأخبار، هذا مجرد عرض للغة متعددة لك. يستخدم هذا Next js 14 و Shadcn UI مع مثال next-intl الخاص بك. أتمنى أن يعجبك."
+    "description": "مرحبا أيوش! ما الأخبار، هذا مجرد عرض للغة متعددة لك. يستخدم هذا Next js 14 و Shadcn UI مع مثال next-intl الخاص بك. أتمنى أن يعجبك.",
+    "productName": "اسم المنتج" ,
+    "productDesc": "وصف المنتج",
+    "productImage": "صورة المنتج"
   },
   "NotFoundPage": {
     "title": "الصفحة غير موجودة",

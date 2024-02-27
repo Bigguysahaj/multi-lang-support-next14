@@ -1,7 +1,10 @@
 {
   "IndexPage": {
     "title": "Best multi language Example",
-    "description": "Hey Aayush!! What's up, this is just a multi language showcase for you. This is uses Next js 14 and Shadcn UI with your next-intl example. Hope you like it."
+    "description": "Hey Aayush!! What's up, this is just a multi language showcase for you. This is uses Next js 14 and Shadcn UI with your next-intl example. Hope you like it.",
+    "productName": "Product Name",
+    "productDesc": "Product Description",
+    "productImage": "Product Image"
   },
   "NotFoundPage": {
     "title": "Page Not Found",

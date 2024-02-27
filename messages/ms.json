@@ -1,7 +1,10 @@
 {
   "IndexPage": {
     "title": "Contoh bahasa pelbagai terbaik",
-    "description": "Hey Aayush!! Apa khabar, ini hanyalah pameran bahasa pelbagai untuk anda. Ini menggunakan Next js 14 dan Shadcn UI dengan contoh next-intl anda. Harap anda suka."
+    "description": "Hey Aayush!! Apa khabar, ini hanyalah pameran bahasa pelbagai untuk anda. Ini menggunakan Next js 14 dan Shadcn UI dengan contoh next-intl anda. Harap anda suka.",
+    "productName": "Nama Produk",
+    "productDesc": "Penerangan Produk",
+    "productImage": "Gambar Produk"
   },
   "NotFoundPage": {
     "title": "Halaman Tidak Ditemui",

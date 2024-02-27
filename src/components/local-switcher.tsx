@@ -1,10 +1,10 @@
 'use client';
 import * as React from 'react';
 import { useLocale } from 'next-intl';
-import { useRouter } from 'next/navigation';
+import { useRouter, usePathname, useSearchParams } from 'next/navigation';
 import { ChangeEvent, useTransition } from 'react';
 import { useTranslations } from 'next-intl';
-import { Button } from '@/ui/button';
+import { Button } from '@/components/ui/button';
 import {
   DropdownMenu,
   DropdownMenuContent,
@@ -13,20 +13,23 @@ import {
   DropdownMenuRadioItem,
   DropdownMenuSeparator,
   DropdownMenuTrigger,
-} from "@/ui/dropdown-menu"
+} from "@/components/ui/dropdown-menu"
 
 
 export default function LocalSwitcher( {dropdown, lang}: {dropdown: string, lang: string} ) {
-  // const t = useTranslations('IndexPage');
   const [isPending, startTransition] = useTransition();
   const router = useRouter();
   const localActive = useLocale();
+  const pathname = usePathname();
+  const searchParams = useSearchParams();
+  const query = searchParams.get('id');
   
   const onSelectChange = (e: React.ChangeEvent<HTMLInputElement>) => {
     const nextLocale = e.target.value;
-    console.log(nextLocale);
     startTransition(() => {
-      router.replace(`/${nextLocale}`);
+      const currentPath = pathname + (query ? `?id=${query}` : '');
+      const newPath = currentPath.replace(localActive, nextLocale);
+      router.replace(newPath);
     });
   };
 
